@@ -1,35 +1,36 @@
-#E-Commerce Site
-This is a basic E-commerce website built using React for the front end. It features a login system, product browsing, and shopping cart functionality, all integrated with Firebase for user authentication. The application is designed to simulate a fully functional e-commerce platform.
+# E-Commerce Site
 
-Features
-User Authentication: Login with email and password.
-Product Display: View products with images and descriptions.
-Shopping Cart: Add/remove items to/from the cart.
-Responsive Design: Optimized for both mobile and desktop.
-Tech Stack
-Frontend: React
-Authentication: Firebase (Email/Password)
-Styling: Bootstrap
-Setup & Installation
-Clone the repository:
+This is a fully functional **E-commerce website** built using **React** and **Firebase Authentication**. It provides basic functionality such as user login, product browsing, and shopping cart management.
 
-bash
-Copy
-Edit
-git clone https://github.com/Pragya0916/E_Commerce_site.git
-Install dependencies:
+## Features
 
-bash
-Copy
-Edit
-npm install
-Set up Firebase:
+- **User Authentication**: Login using email and password.
+- **Product Browsing**: Display products with descriptions and prices.
+- **Shopping Cart**: Add and remove products from the cart.
+- **Responsive Design**: Fully responsive for mobile and desktop views.
 
-Create a Firebase project and enable Email/Password Authentication.
-Replace Firebase configuration in firebase.js.
-Run the app:
+---
 
-bash
-Copy
-Edit
-npm start
+## Tech Stack
+
+- **Frontend**: React
+- **Authentication**: Firebase (Email/Password)
+- **Styling**: Bootstrap
+
+---
+
+## Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Pragya0916/E_Commerce_site.git
+2. Navigate into the project directory:
+   ```bash
+   cd E_Commerce_site
+3. Install dependencies:
+   ```bash
+   npm install
+4. Run the application:
+   ```bash
+   npm start
+The application will be available at http://localhost:3000.
